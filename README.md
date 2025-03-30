@@ -37,6 +37,7 @@ Download the VOST dataset from [vostdataset.org](https://www.vostdataset.org/) ,
 | DeAOT*            | 39.5               | 51.7          | ./aot_plus/pretrain_models/R50_DeAOTL.pth   |
 | DeAOT* + EMFS     | 41.9               | 52.6          | ./aot_plus/pretrain_models/DeAOT_EMFS.pth |
 
+* denotes our implementation with constrained memory bank capacity and a fixed strategy of removing the first frame during updates.
 
 ## Evaluation
 
