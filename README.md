@@ -30,14 +30,18 @@ Download the VOST dataset from [vostdataset.org](https://www.vostdataset.org/) ,
 
 ## Checkpoint
 
-| Method            |        J_tr        |        J      |                                  |
-| ----------------- | ------------------ | ------------- | -------------------------------- |
-| AOT*              | 39.0               | 50.4          | ./aot_plus/pretrain_models/R50_AOTL.pth |
-| AOT* + EMFS       | 42.8               | 51.6          | ./aot_plus/pretrain_models/AOT_EMFS.pth  |
-| DeAOT*            | 39.5               | 51.7          | ./aot_plus/pretrain_models/R50_DeAOTL.pth   |
-| DeAOT* + EMFS     | 41.9               | 52.6          | ./aot_plus/pretrain_models/DeAOT_EMFS.pth |
+Download the checkpoint and put them in `./aot_plus/pretrain_models/`
+
+| Method        | J_tr | J    |                                                              |
+| ------------- | ---- | ---- | ------------------------------------------------------------ |
+| AOT*          | 39.0 | 50.4 | [R50_AOTL.pth](https://drive.google.com/file/d/1kZgtsdZGRdWxQ4_taAS6C_NGDcn9ufYi/view?usp=drive_link) |
+| AOT* + EMFS   | 42.8 | 51.6 | [AOT_EMFS.pth](https://drive.google.com/file/d/16geEhjPXVTqy0guwODaqi96JAOcgaA6Z/view?usp=drive_link) |
+| DeAOT*        | 39.5 | 51.7 | [R50_DeAOTL.pth](https://drive.google.com/file/d/1PY8Ns8X-V24eiklifgVcdiAC748IIWCJ/view?usp=drive_link) |
+| DeAOT* + EMFS | 41.9 | 52.6 | [DeAOT_EMFS.pth](https://drive.google.com/file/d/1Y16_Ef2kJIhZrUSc7tdp6mYlnVpEezVJ/view?usp=drive_link) |
 
 The * denotes our implementation with constrained memory bank capacity and a fixed strategy of removing the first frame during updates.
+
+
 
 ## Evaluation
 
