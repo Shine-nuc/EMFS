@@ -1,4 +1,4 @@
-# EMFS: Minimising redundancy, maximising relevance: efficient memory feature selection for video object segmentation
+# Minimising Redundancy, Maximising Relevance: Efficient Memory Feature Selection for Video Object Segmentation (EMFS) 
 
 
 ## Data preparation
