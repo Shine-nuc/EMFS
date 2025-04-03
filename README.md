@@ -1,4 +1,4 @@
-# Minimising Redundancy, Maximising Relevance: Efficient Memory Feature Selection for Video Object Segmentation (EMFS) 
+# An Efficient Plug-and-Play Enhancement for Robust Video Object Segmentation via Relevance–Redundancy Memory Update (ERMU) 
 
 
 ## Data preparation
